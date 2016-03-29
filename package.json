@@ -1,6 +1,6 @@
 {
   "name": "gulp-git-rev",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Create git rev json file and insert into Gulp pipeline",
   "main": "gulp-git-rev.js",
   "scripts": {
@@ -15,6 +15,9 @@
     "git",
     "rev",
     "json"
+  ],
+  "files": [
+    "lib"
   ],
   "author": "dev@kivra.com",
   "license": "MIT",
