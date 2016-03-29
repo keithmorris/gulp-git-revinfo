@@ -19,6 +19,7 @@
   "files": [
     "lib"
   ],
+  "main": "./lib/gulp-git-rev.js",
   "author": "dev@kivra.com",
   "license": "MIT",
   "bugs": {
