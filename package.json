@@ -1,0 +1,37 @@
+{
+  "name": "gulp-git-rev",
+  "version": "0.0.0",
+  "description": "Create git rev json file and insert into Gulp pipeline",
+  "main": "gulp-git-rev.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test --recursive --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kivra/gulp-git-rev.git"
+  },
+  "keywords": [
+    "gulp",
+    "git",
+    "rev",
+    "json"
+  ],
+  "author": "dev@kivra.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kivra/gulp-git-rev/issues"
+  },
+  "homepage": "https://github.com/kivra/gulp-git-rev#readme",
+  "dependencies": {
+    "async-each": "^1.0.0",
+    "git-rev": "^0.2.1",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "event-stream": "^3.3.2",
+    "expect.js": "^0.3.1",
+    "gulp": "^3.9.1",
+    "mocha": "^2.4.5"
+  }
+}
